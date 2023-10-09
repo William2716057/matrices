@@ -1,5 +1,5 @@
 import numpy as np 
-values = [1,2,3,4]
+values = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 
 #row matrix 
 rows = np.array(values)
@@ -10,8 +10,8 @@ columns = np.array(values).reshape(-1,1 )
 print("column matrix")
 print(columns)
 #square matrix 
-numRows = 2
-numCols = 2
+numRows = 4
+numCols = 4
 
 squareMatrix = np.array(values).reshape(numRows, numCols)
 print(squareMatrix)
