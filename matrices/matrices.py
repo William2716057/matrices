@@ -11,9 +11,10 @@ print(rows)
 columns = np.array(values).reshape(-1,1 )
 print("column matrix")
 print(columns)
-#rectangular matrix 
+#square matrix 
 numRows = 2
 numCols = 2
 
-rectangularMatrix = np.array(values).reshape(numRows, numCols)
-print(rectangularMatrix)
+squareMatrix = np.array(values).reshape(numRows, numCols)
+print(squareMatrix)
+
