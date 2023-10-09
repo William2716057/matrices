@@ -35,3 +35,11 @@ determinant = int(determinant)
 print("Determinant ")
 print(determinant)
 #scalar matrix 
+
+value = 9
+size = 8 
+
+scalarMatrix = value * np.eye(size)
+
+print("scalar matrix ")
+print(scalarMatrix)
