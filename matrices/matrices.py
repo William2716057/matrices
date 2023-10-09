@@ -28,4 +28,9 @@ np.fill_diagonal(diagonalMatrix, values)
 
 print("Diagonal matrix ")
 print(diagonalMatrix)
-
+#calculate eigenvalues (sum of diagonals)
+eigenvalues = np.linalg.eigvals(diagonalMatrix)
+eigenvalueSum = np.sum(eigenvalues)
+print("Eigenvalues ")
+print(eigenvalueSum)
+#scalar matrix 
